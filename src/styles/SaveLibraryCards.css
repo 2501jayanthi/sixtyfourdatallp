@@ -1,0 +1,66 @@
+.save-library-cards-container {
+  padding: 0 50px;
+  display: grid;
+  margin:5px;
+  width: 100%;
+  grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+  gap: 10px;
+}
+
+.save-library-cards-items-container {
+  width: 15vw;
+  height: 10vw;
+  /* background-color: red; */
+  background-color: #fff;
+  box-shadow: 0px 5px 10px -5px #000;
+  padding: 20px;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 15px;
+}
+
+.card {
+  /* font-size: 30px; */
+  width: 35px;
+  height: 25px;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px 0px 0 3px;
+  border-radius: 5px;
+}
+
+.card-1 {
+  background-color: rgb(87, 193, 248);
+}
+.card-2 {
+  background-color: #6e6ffc;
+}
+.card-3 {
+  background-color: #ff4e59;
+}
+.card-4 {
+  background-color: #ff7f57;
+}
+.card-5 {
+  background-color: #15cc8c;
+}
+
+.hr {
+  height: 3px;
+  background-color: #fff;
+  color: #fff;
+  width: 20px;
+}
+
+.save-library-cards-items-container h1 {
+  font-size: 15px;
+  color: #3b3a3e;
+}
+
+.save-library-cards-items-container p {
+  color: #7b8993;
+  font-weight: 700;
+}

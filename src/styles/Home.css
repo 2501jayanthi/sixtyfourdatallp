@@ -1,0 +1,86 @@
+.home-container {
+    display: flex;
+  }
+  .home-items-container {
+    width: 100%;
+    /* background-color: #fafcff; */
+    position: relative;
+  }
+  
+  .home-header {
+    background-color: #262847;
+    display: flex;
+    justify-content: space-between;
+    padding: 40px 60px 0 60px;
+    height: 30vh;
+    width: 100%;
+    color: #fff;
+  }
+  .custom-button {
+    background-color: black;
+    color: white;
+    padding: 8px 16px; /* Adjust padding as needed */
+    border: none;
+    border-radius: 4px; /* Adjust border radius as needed */
+    cursor: pointer;
+    font-size: 16px; /* Adjust font size as needed */
+    font-weight: bold; /* Optionally adjust font weight */
+    text-transform: uppercase; /* Optionally adjust text transform */
+}
+
+  .name-container {
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+  }
+  
+  .name-container h1 {
+    font-size: 20px;
+    font-weight: 600;
+  }
+  
+  .name-container p {
+    color: #555977;
+    font-weight: 500;
+  }
+  
+  .date-container {
+    display: flex;
+    justify-content: center;
+    gap: 60px;
+  }
+  
+  .date {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+  }
+  .date-icons {
+    font-size: 20px;
+    font-weight: 800;
+  }
+  .date p {
+    font-size: 15px;
+  }
+  
+  .home-save-library-cards-container {
+    position: absolute;
+    top: 130px;
+    width: 100%;
+  }
+  
+  .home-banking-container-it {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+  }
+  .recent-headng{
+    margin: 15px;
+    padding: 10px;
+  }
+ .recent-cont{
+  display: flex;
+  flex-direction: column;
+ }
+
+  
